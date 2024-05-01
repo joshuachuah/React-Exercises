@@ -1,19 +1,11 @@
 import React from 'react'
 import './App.css';
-import CounterOne from './components/CounterOne';
-import CounterTwo from './components/CounterTwo';
-import CounterThree from './components/CounterThree';
-import DataFetchingOne from './components/DataFetchingOne';
-import DataFetchingTwo from './components/DataFetchingTwo';
+import ParentComponent from './components/ParentComponent';
 
 function App() {
   return (
     <div className="App">
-      {/* <CounterOne/> */}
-      {/* <CounterTwo/> */}
-      {/* <CounterThree/> */}
-      {/* <DataFetchingOne/> */}
-      <DataFetchingTwo/>
+      <ParentComponent/>
     </div>
   )
 }
